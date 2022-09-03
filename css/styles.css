@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #E5E5E5;
+    color: #212121;
+}
+a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    text-decoration: none;
+}
+address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: #FFFFFF;
+}
+button:hover {
+    color: #2196F3;
+    cursor: pointer;
+}
+button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    background: #F5F4FA;
+}
+footer {
+    background: #2F303A
+}
+h1 {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    color: #FFFFFF;
+}
+h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+p {
+    font-size: 16px;
+    color: #757575;
+}
+.Contact1:hover {
+    color: #2196F3;
+}
+.Contact1 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #757575;
+}
+.Contact2:hover {
+    color: #2196F3;
+}
+.Contact2 {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.Link:hover {
+    color: #2196F3;
+}
+.Logo {
+    font-family: 'Ralewey';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #2196F3;
+    text-decoration: none;
+}
+.Name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+.Text {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+}
+.Title-principal-1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 2.625;
+}
+.Title-principal-2 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+}
+#Bg {
+    background: #2F303A;
+}
+#button-banner {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    color: #FFFFFF;
+    background: #2196F3;
+} 
+#Social-networks {
+    font-weight: 700;
+    line-height: 16px;
+}
