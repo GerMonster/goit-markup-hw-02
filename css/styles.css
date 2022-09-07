@@ -1,107 +1,116 @@
+:root {
+    --black: #212121;
+    --white: #FFFFFF; 
+    --fondo: #E5E5E5; 
+    --skyblue: #2196F3; 
+    --button: #F5F4FA;
+    --footer: #2F303A;
+    --texto: #757575;
+    --final-links: rgba(255, 255, 255, 0.6);
+}
 body {
     font-family: 'Roboto', sans-serif;
-    background: #E5E5E5;
-    color: #212121;
+    background: var(--fondo);
 }
-a {
+.link {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #212121;
+    color: var(--black);
     text-decoration: none;
 }
-address {
+.contact-information {
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
-    color: #FFFFFF;
+    color: var(--white);
 }
-button:hover {
-    color: #2196F3;
+.menu:hover {
+    color: var(--skyblue);
     cursor: pointer;
 }
-button {
+.menu {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    background: #F5F4FA;
+    background: var(--button);
 }
-footer {
-    background: #2F303A
+.contact-information {
+    background: var(--footer);
 }
-h1 {
+.title-principal {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    color: #FFFFFF;
+    color: var(--white);
 }
-h2 {
+.title-portfolio-1 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
-p {
+.text2 {
     font-size: 16px;
-    color: #757575;
+    color: var(--texto);
 }
-.Contact1:hover {
-    color: #2196F3;
+.contact1:hover {
+    color: var(--skyblue);
 }
-.Contact1 {
+.contact1 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    color: #757575;
+    color: var(--texto);
 }
-.Contact2:hover {
-    color: #2196F3;
+.contact2:hover {
+    color: var(--skyblue);
 }
-.Contact2 {
+.contact2 {
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--final-links);
 }
-.Link:hover {
-    color: #2196F3;
+.link:hover {
+    color: var(--skyblue);
 }
-.Logo {
+.logo {
     font-family: 'Ralewey';
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
-    color: #2196F3;
+    color: var(--skyblue);
     text-decoration: none;
 }
-.Name {
+.name {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
 }
-.Text {
+.text {
     font-size: 14px;
     line-height: 1.71;
-    color: #757575;
+    color: var(--texto);
 }
-.Title-principal-1 {
+.title-principal-1 {
     font-weight: 700;
     font-size: 36px;
     line-height: 2.625;
 }
-.Title-principal-2 {
+.title-principal-2 {
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
 }
-#Bg {
-    background: #2F303A;
+#bg {
+    background: var(--footer);
 }
 #button-banner {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    color: #FFFFFF;
-    background: #2196F3;
+    color: var(--white);
+    background: var(--skyblue);
 } 
-#Social-networks {
+#social-networks {
     font-weight: 700;
     line-height: 16px;
 }
